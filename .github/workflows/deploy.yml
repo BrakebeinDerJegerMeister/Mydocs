@@ -9,12 +9,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkou Code
+      uses: actions/checkout@v3
 
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version: '20' # Utilise la version de Node.js qui correspond à ton projet
+        node-version: '18' # Utilise la version de Node.js qui correspond à ton projet
 
     - name: Install Dependencies
       run: npm install
@@ -22,7 +23,7 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Deploy
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
