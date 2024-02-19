@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Tutorial Super Intro",
         "href": "/Mydocs/docs/intro",
         "docId": "intro",
         "unlisted": false
@@ -89,13 +89,60 @@
           }
         ],
         "href": "/Mydocs/docs/category/tutorial---extras"
+      },
+      {
+        "type": "category",
+        "label": "Déployer Docusaurus",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Création du projet",
+            "href": "/Mydocs/docs/Déployer Docusaurus/Création",
+            "docId": "Déployer Docusaurus/Création",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Préparer pour GitHub",
+            "href": "/Mydocs/docs/Déployer Docusaurus/2a Déployer sur GitHub",
+            "docId": "Déployer Docusaurus/2a Déployer sur GitHub",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "2b Déployer sur GitLab",
+            "href": "/Mydocs/docs/Déployer Docusaurus/2b Déployer sur GitLab",
+            "docId": "Déployer Docusaurus/2b Déployer sur GitLab",
+            "unlisted": false
+          }
+        ]
       }
     ]
   },
   "docs": {
+    "Déployer Docusaurus/2a Déployer sur GitHub": {
+      "id": "Déployer Docusaurus/2a Déployer sur GitHub",
+      "title": "Préparer pour GitHub",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Déployer Docusaurus/2b Déployer sur GitLab": {
+      "id": "Déployer Docusaurus/2b Déployer sur GitLab",
+      "title": "2b Déployer sur GitLab",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Déployer Docusaurus/Création": {
+      "id": "Déployer Docusaurus/Création",
+      "title": "Création du projet",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
+      "title": "Tutorial Super Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },

@@ -1,0 +1,25 @@
+{
+  "id": "Déployer Docusaurus/Création",
+  "title": "Création du projet",
+  "description": "",
+  "source": "@site/docs/Déployer Docusaurus/1. Création.md",
+  "sourceDirName": "Déployer Docusaurus",
+  "slug": "/Déployer Docusaurus/Création",
+  "permalink": "/Mydocs/docs/Déployer Docusaurus/Création",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Déployer Docusaurus/1. Création.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/Mydocs/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Préparer pour GitHub",
+    "permalink": "/Mydocs/docs/Déployer Docusaurus/2a Déployer sur GitHub"
+  }
+}

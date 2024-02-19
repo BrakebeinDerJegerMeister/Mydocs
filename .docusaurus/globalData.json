@@ -11,6 +11,21 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Déployer Docusaurus/2a Déployer sur GitHub",
+              "path": "/Mydocs/docs/Déployer Docusaurus/2a Déployer sur GitHub",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Déployer Docusaurus/2b Déployer sur GitLab",
+              "path": "/Mydocs/docs/Déployer Docusaurus/2b Déployer sur GitLab",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Déployer Docusaurus/Création",
+              "path": "/Mydocs/docs/Déployer Docusaurus/Création",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/Mydocs/docs/intro",
               "sidebar": "tutorialSidebar"

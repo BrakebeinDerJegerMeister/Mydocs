@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/Mydocs/__docusaurus/debug',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug', '324'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/config',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/config', 'dc1'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/content',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/content', 'bbf'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/globalData',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/globalData', '1d4'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/metadata',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/metadata', '0b5'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/registry',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/registry', 'ef4'),
+    exact: true
+  },
+  {
+    path: '/Mydocs/__docusaurus/debug/routes',
+    component: ComponentCreator('/Mydocs/__docusaurus/debug/routes', '9ff'),
+    exact: true
+  },
+  {
     path: '/Mydocs/blog',
     component: ComponentCreator('/Mydocs/blog', '578'),
     exact: true
@@ -64,15 +99,15 @@ export default [
   },
   {
     path: '/Mydocs/docs',
-    component: ComponentCreator('/Mydocs/docs', 'c79'),
+    component: ComponentCreator('/Mydocs/docs', 'df7'),
     routes: [
       {
         path: '/Mydocs/docs',
-        component: ComponentCreator('/Mydocs/docs', '94c'),
+        component: ComponentCreator('/Mydocs/docs', '5ee'),
         routes: [
           {
             path: '/Mydocs/docs',
-            component: ComponentCreator('/Mydocs/docs', '9d5'),
+            component: ComponentCreator('/Mydocs/docs', '631'),
             routes: [
               {
                 path: '/Mydocs/docs/category/tutorial---basics',
@@ -83,6 +118,24 @@ export default [
               {
                 path: '/Mydocs/docs/category/tutorial---extras',
                 component: ComponentCreator('/Mydocs/docs/category/tutorial---extras', '1b7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Mydocs/docs/Déployer Docusaurus/2a Déployer sur GitHub',
+                component: ComponentCreator('/Mydocs/docs/Déployer Docusaurus/2a Déployer sur GitHub', '704'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Mydocs/docs/Déployer Docusaurus/2b Déployer sur GitLab',
+                component: ComponentCreator('/Mydocs/docs/Déployer Docusaurus/2b Déployer sur GitLab', 'ab2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/Mydocs/docs/Déployer Docusaurus/Création',
+                component: ComponentCreator('/Mydocs/docs/Déployer Docusaurus/Création', 'a99'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
